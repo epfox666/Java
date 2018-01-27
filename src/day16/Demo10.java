@@ -43,7 +43,7 @@ class Computer extends JFrame implements ActionListener {
 		this.setVisible(true);
 	}
 	
-	String opt;  //ÔËËã·û
+	String opt;  //è¿ç®—ç¬¦
 	String s1;  
 	String s2;
 	String s3;

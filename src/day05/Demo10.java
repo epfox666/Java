@@ -4,7 +4,7 @@ public class Demo10 {
 public static void main(String[] args) {
 	int i=1;
 	do {
-		System.out.println("Java»¶ÀÖ¶à");
+		System.out.println("Javaæ¬¢ä¹å¤š");
 	    i++;
 	}while(i<=5);	
 	}

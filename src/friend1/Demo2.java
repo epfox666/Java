@@ -7,6 +7,6 @@ public static void main(String[] args) {
 }
 }
 class Person{
-	//Ä¬ÈÏµÄ·ÃÎÊĞŞÊÎ·ûĞŞÊÎ£¬±¾ÀàÄÚ£¬°üÏÂ
+	//é»˜è®¤çš„è®¿é—®ä¿®é¥°ç¬¦ä¿®é¥°ï¼Œæœ¬ç±»å†…ï¼ŒåŒ…ä¸‹
 	String name="epfox";
 }

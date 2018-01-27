@@ -4,7 +4,7 @@ import java.util.*;
 public class Test2 {
 public static void main(String[] args) {
 	Scanner scanner=new Scanner(System.in);
-	System.out.println("ÇëÊäÈëÒ»¸ö²ÎÊı");
+	System.out.println("è¯·è¾“å…¥ä¸€ä¸ªå‚æ•°");
 
 		int num=scanner.nextInt();
 		double result=10/num;

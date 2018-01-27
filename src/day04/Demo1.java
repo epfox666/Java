@@ -8,11 +8,11 @@ public class Demo1 {
 	
    int a=200;
    if(a>200) {
-	   System.out.println("结果正确");
+	   System.out.println("缁撴灉姝ｇ‘");
 	   
    }
    else {
-	  System.out.println("结果错误");
+	  System.out.println("缁撴灉閿欒");
    }
 }
 }

@@ -35,38 +35,38 @@ interface Car{
 class Taxi implements Car{
 	@Override
 	public void start() {
-		 System.out.println("³ö×âÆô¶¯");
+		 System.out.println("å‡ºç§Ÿå¯åŠ¨");
 		
 	}
 
 	@Override
 	public void run() {
-		System.out.println("³ö×âĞĞÊ»");
+		System.out.println("å‡ºç§Ÿè¡Œé©¶");
 		
 	}
 
 	@Override
 	public void stop() {
-		System.out.println("³ö×âÉ²³µ");
+		System.out.println("å‡ºç§Ÿåˆ¹è½¦");
 		
 }
 }
 class Bmw implements Car{
 	@Override
 	public void start() {
-		 System.out.println("±¼³ÛÆô¶¯");
+		 System.out.println("å¥”é©°å¯åŠ¨");
 		
 	}
 
 	@Override
 	public void run() {
-		System.out.println("±¼³ÛĞĞÊ»");
+		System.out.println("å¥”é©°è¡Œé©¶");
 		
 	}
 
 	@Override
 	public void stop() {
-		System.out.println("±¼³ÛÉ²³µ");
+		System.out.println("å¥”é©°åˆ¹è½¦");
 		
 }
 }
@@ -74,19 +74,19 @@ class Bmw implements Car{
 
 	@Override
 	public void start() {
-		 System.out.println("QQÆô¶¯");
+		 System.out.println("QQå¯åŠ¨");
 		
 	}
 
 	@Override
 	public void run() {
-		System.out.println("QQĞĞÊ»");
+		System.out.println("QQè¡Œé©¶");
 		
 	}
 
 	@Override
 	public void stop() {
-		System.out.println("QQÉ²³µ");
+		System.out.println("QQåˆ¹è½¦");
 		
 	}
 }

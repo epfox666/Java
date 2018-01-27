@@ -23,7 +23,7 @@ class Frame1 extends JFrame{
 		this.setVisible(true);
 		this.setSize(500, 300);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.setTitle("流式布局");
+		this.setTitle("娴佸紡甯冨眬");
 		this.pack();
 	}
 }

@@ -4,12 +4,12 @@ public class Test4 {
 	public static void main(String[] args) { 
         Test4 t = new Test4(); 
         int a=99; 
-        t.test1(a);//ÕâÀï´«µİµÄ²ÎÊıa¾ÍÊÇ°´Öµ´«µİ 
+        t.test1(a);//è¿™é‡Œä¼ é€’çš„å‚æ•°aå°±æ˜¯æŒ‰å€¼ä¼ é€’ 
         System.out.println(a);
          
         MyObj obj=new MyObj(); 
         
-        t.test2(obj);//ÕâÀï´«µİµÄ²ÎÊıobj¾ÍÊÇÒıÓÃ´«µİ
+        t.test2(obj);//è¿™é‡Œä¼ é€’çš„å‚æ•°objå°±æ˜¯å¼•ç”¨ä¼ é€’
         System.out.println(obj.b);
     } 
      

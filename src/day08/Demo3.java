@@ -15,7 +15,7 @@ class Box{
 	int high;
 	void getTiji() {
 		int result=length*width*high;
-		System.out.println("¸Ã³¤·½ÌåÌå»ıÊÇ"+result);
+		System.out.println("è¯¥é•¿æ–¹ä½“ä½“ç§¯æ˜¯"+result);
 	}
 	
 }

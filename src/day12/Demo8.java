@@ -26,25 +26,25 @@ class Emp implements Moo{
 
 	@Override
 	public void m1() {
-		 System.out.println("½Ó¿ÚMoo1µÄ·½·¨");
+		 System.out.println("æ¥å£Moo1çš„æ–¹æ³•");
 		
 	}
 
 	@Override
 	public void m2() {
-		  System.out.println("½Ó¿ÚMoo2µÄ·½·¨");	
+		  System.out.println("æ¥å£Moo2çš„æ–¹æ³•");	
 		
 	}
 
 	@Override
 	public void m3() {
-		System.out.println("½Ó¿ÚMoo3µÄ·½·¨");
+		System.out.println("æ¥å£Moo3çš„æ–¹æ³•");
 		
 	}
 
 	@Override
 	public void m() {
-		  System.out.println("½Ó¿ÚMooµÄ·½·¨");
+		  System.out.println("æ¥å£Mooçš„æ–¹æ³•");
 		
 	}
 	

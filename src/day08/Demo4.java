@@ -3,7 +3,7 @@ package day08;
 public class Demo4 {
 public static void main(String[] args) {
 	Car car1=new Car();
-	car1.name="±¦Âí";
+	car1.name="å®é©¬";
 	car1.no="95533";
 	car1.price=100000;
 	car1.start();
@@ -18,13 +18,13 @@ class Car{
 	double speed=0;
 	void start(){
 		speed=100;
-		System.out.println(name+"Æô¶¯ÁË");
+		System.out.println(name+"å¯åŠ¨äº†");
 	}
 	void run() {
-		System.out.println(name+"ÕıÔÚĞĞÊ»"+"µ±Ç°µÄËÙ¶ÈÊÇ"+speed);
+		System.out.println(name+"æ­£åœ¨è¡Œé©¶"+"å½“å‰çš„é€Ÿåº¦æ˜¯"+speed);
 	}
 	void stop() {
 		speed=0;
-		System.out.println(name+"Í£Ö¹ÔËĞĞ"+"µ±Ç°µÄËÙ¶ÈÊÇ"+speed);
+		System.out.println(name+"åœæ­¢è¿è¡Œ"+"å½“å‰çš„é€Ÿåº¦æ˜¯"+speed);
 	}
 }

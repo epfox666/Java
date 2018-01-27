@@ -1,10 +1,10 @@
 package day07;
-//ÎŞ²ÎÊıÒ²ÎŞ·µ»ØÖµ
+//æ— å‚æ•°ä¹Ÿæ— è¿”å›å€¼
 public class Demo9 {
 public static void main(String[] args) {
 	show();
 }
 static void show() {
-	System.out.println("Ã÷ÌìÉÏ¿Î");
+	System.out.println("æ˜å¤©ä¸Šè¯¾");
 }
 }

@@ -2,11 +2,11 @@ package day11;
 
 public class Demo4 {
 public static void main(String[] args) {
-	User user=new User("ÕÅÎŞ¼É","ÄĞ",20,
+	User user=new User("å¼ æ— å¿Œ","ç”·",20,
 			"zhang@163.com",false,10);
 	
-	user.setName("¶«·ç²»°Ü");
-	user.setSex("²»Çå³ş");
+	user.setName("ä¸œé£ä¸è´¥");
+	user.setSex("ä¸æ¸…æ¥š");
 	
 	System.out.println(user.getName());
 	System.out.println(user.getEmail());

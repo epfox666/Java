@@ -41,7 +41,7 @@ class Teacher extends Person{
 
 	@Override
 	void show2() {
-		System.out.println("ÕâÊÇshow2"+","+name+","+age);
+		System.out.println("è¿™æ˜¯show2"+","+name+","+age);
 		
 	}
 	

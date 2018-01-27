@@ -3,12 +3,12 @@ package day11;
 public class Demo2 {
 	public static void main(String[] args) {
 		Person p1=new Teacher();
-		p1.name="ÁõÇ«";
+		p1.name="åˆ˜è°¦";
 		p1.show();
 		p1.add(5, 5);
 		//p1.welcome();
 		Teacher p2=new Teacher();
-		p2.name="ÁõÀÏÊ¦";
+		p2.name="åˆ˜è€å¸ˆ";
 		p2.show();
 		p2.add(5, 5);
 		p2.welcome();
@@ -17,7 +17,7 @@ public class Demo2 {
 class Person{
 	String name;
 	void show() {
-		System.out.println("½ñÌìÔçÉÏ£¬°¢¸ùÍ¢ÊäÁË...¿ÉÁ¯µÄÃ·Î÷");
+		System.out.println("ä»Šå¤©æ—©ä¸Šï¼Œé˜¿æ ¹å»·è¾“äº†...å¯æ€œçš„æ¢…è¥¿");
 	}
 	  void add(int num1,int num2){
 			System.out.println(num1+num2);
@@ -25,9 +25,9 @@ class Person{
 }
 class Teacher extends Person{
 	void show() {
-		System.out.println(name+"×òÌì°¾Ò¹¿´Çò");
+		System.out.println(name+"æ˜¨å¤©ç†¬å¤œçœ‹çƒ");
 	}
 	void welcome() {
-		System.out.println("±±¾©»¶Ó­Äã...");
+		System.out.println("åŒ—äº¬æ¬¢è¿ä½ ...");
 	}
 }

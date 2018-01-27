@@ -2,12 +2,12 @@ package day11;
 
 public class Demo6 {
 public static void main(String[] args) {
-	Worker w1 = new Worker("ÎÀÇà",32);
-	Worker w2 = new Worker("ÏîÓğ",34);
-	Worker w3 = new Worker("À¶Óñ",36);
-	Worker w4 = new Worker("»ÆººÉı",33);
-	Worker w5 = new Worker("¸ÊĞË°Ô",32);
-	Worker w6 = new Worker("ÇØÇí",36);
+	Worker w1 = new Worker("å«é’",32);
+	Worker w2 = new Worker("é¡¹ç¾½",34);
+	Worker w3 = new Worker("è“ç‰",36);
+	Worker w4 = new Worker("é»„æ±‰å‡",33);
+	Worker w5 = new Worker("ç”˜å…´éœ¸",32);
+	Worker w6 = new Worker("ç§¦ç¼",36);
 	Worker.getMoney();
 }
 }
@@ -22,6 +22,6 @@ class Worker{
 	}
 	static void getMoney() {
 		double result=num*10000;
-		System.out.println("×ÜµÄ¹¤×ÊÖ§³ö£º"+result);
+		System.out.println("æ€»çš„å·¥èµ„æ”¯å‡ºï¼š"+result);
 	}
 }

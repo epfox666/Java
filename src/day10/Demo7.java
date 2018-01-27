@@ -19,7 +19,7 @@ class Car2{
 		this.no=no;
 	}
 	void show() {
-		System.out.println("父类Car2的show:"+name+","+color+","
+		System.out.println("鐖剁被Car2鐨剆how:"+name+","+color+","
 				+price+","+no);
 	}
 }
@@ -33,7 +33,7 @@ class Bmw5 extends Car2{
 	this.type=type;
 	}
 	void show() {
-		System.out.println("子类Bmw5的show:"+name+","+color+","
+		System.out.println("瀛愮被Bmw5鐨剆how:"+name+","+color+","
 				+price+","+no+","+speed+","+type);
 }
 }

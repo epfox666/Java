@@ -17,8 +17,8 @@ class SanGuo2 extends JFrame{
 	JButton button1;
 	JButton button2;
 	  SanGuo2(){
-		  button1=new JButton("Áõ±¸");
-		  button2=new JButton("Öî¸ğÁÁ");
+		  button1=new JButton("åˆ˜å¤‡");
+		  button2=new JButton("è¯¸è‘›äº®");
 		  this.setLayout(new FlowLayout());
 		  this.add(button1);
 		  this.add(button2);
@@ -34,10 +34,10 @@ class SanGuo2 extends JFrame{
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			String name=e.getActionCommand();
-			if("Áõ±¸".equals(name)) {
-				System.out.println("Ö÷¹«£¬ÎÒÀ´ÁË");
-			}else if("Öî¸ğÁÁ".equals(name)) {
-				System.out.println("¾üÊ¦£¬ÎÒÀ´ÁË");
+			if("åˆ˜å¤‡".equals(name)) {
+				System.out.println("ä¸»å…¬ï¼Œæˆ‘æ¥äº†");
+			}else if("è¯¸è‘›äº®".equals(name)) {
+				System.out.println("å†›å¸ˆï¼Œæˆ‘æ¥äº†");
 			}
 			
 		}

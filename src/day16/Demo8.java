@@ -15,9 +15,9 @@ public class Demo8 {
 class Sanguo3 extends JFrame implements ActionListener{
 	JButton button1,button2,button3;
 	Sanguo3(){
-		button1=new JButton("Áõ±¸");
-		button2=new JButton("Öî¸ğÁÁ");
-		button3=new JButton("ÕÔÔÆ");
+		button1=new JButton("åˆ˜å¤‡");
+		button2=new JButton("è¯¸è‘›äº®");
+		button3=new JButton("èµµäº‘");
 		this.setLayout(new FlowLayout());
 		this.add(button1);
 		this.add(button2);
@@ -32,12 +32,12 @@ class Sanguo3 extends JFrame implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		String name=e.getActionCommand();
-		if("Áõ±¸".equals(name)) {
-			System.out.println("Ö÷¹«ÎÒÀ´ÁË");
-		}else if("Öî¸ğÁÁ".equals(name)) {
-			System.out.println("¾üÊ¦ÎÒÀ´ÁË");
-		}else if("ÕÔÔÆ".equals(name)) {
-			System.out.println("½«¾üÎÒÀ´ÁË");
+		if("åˆ˜å¤‡".equals(name)) {
+			System.out.println("ä¸»å…¬æˆ‘æ¥äº†");
+		}else if("è¯¸è‘›äº®".equals(name)) {
+			System.out.println("å†›å¸ˆæˆ‘æ¥äº†");
+		}else if("èµµäº‘".equals(name)) {
+			System.out.println("å°†å†›æˆ‘æ¥äº†");
 		}
 		
 	}

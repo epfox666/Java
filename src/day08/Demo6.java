@@ -3,8 +3,8 @@ package day08;
 public class Demo6 {
 public static void main(String[] args) {
 	Person2 p1=new Person2();
-	p1.name = "ÕÅ¾ÓÕý";
-	p1.sex = "ÄÐ";
+	p1.name = "å¼ å±…æ­£";
+	p1.sex = "ç”·";
 	p1.age = 60;
 	p1.show();
 }
@@ -14,7 +14,7 @@ class Person2{
 	int age;
 	String sex;
 	Person2(){
-		System.out.println("´´½¨¸ÃPersonÀàµÄ¶ÔÏó");
+		System.out.println("åˆ›å»ºè¯¥Personç±»çš„å¯¹è±¡");
 	}
 	void show() {
 		System.out.println(name+","+sex+","+age);

@@ -42,7 +42,7 @@ class MyFrame6 extends JFrame{
 	this.setSize(500,300);
 	this.setDefaultCloseOperation(
 			JFrame.EXIT_ON_CLOSE);
-	this.setTitle("JPanelµÄÊ¹ÓÃ");
+	this.setTitle("JPanelçš„ä½¿ç”¨");
 	
 	
 	

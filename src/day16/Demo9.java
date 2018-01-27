@@ -17,8 +17,8 @@ class MyText extends JFrame implements ActionListener{
 	JButton button1,button2;
 	JTextField jtf;
 	MyText(){
-		button1=new JButton("东方不败");
-		button2=new JButton("西方乞丐");
+		button1=new JButton("涓滄柟涓嶈触");
+		button2=new JButton("瑗挎柟涔炰笎");
 		jtf=new JTextField(20);
 		this.setLayout(new FlowLayout());
 		this.add(button1);
@@ -35,14 +35,14 @@ class MyText extends JFrame implements ActionListener{
 	public void actionPerformed(ActionEvent e) {
 		String name=e.getActionCommand();
 		String temp=jtf.getText();
-		if("东方不败".equals(name)) {
+		if("涓滄柟涓嶈触".equals(name)) {
 			if(temp==null) {
 				jtf.setText(name);
 			}else {
 				jtf.setText(temp+name);
 			}
 		}
-		if("西方乞丐".equals(name)) {
+		if("瑗挎柟涔炰笎".equals(name)) {
 			if(temp==null) {
 				jtf.setText(name);
 			}else {

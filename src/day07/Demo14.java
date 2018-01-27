@@ -1,4 +1,4 @@
-//´ø²ÎÊı´ø·µ»ØÖµ
+//å¸¦å‚æ•°å¸¦è¿”å›å€¼
 package day07;
 import java.util.Scanner;
 public class Demo14 {

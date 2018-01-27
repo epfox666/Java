@@ -4,14 +4,14 @@ public class Demo5 {
 public static void main(String[] args) {
 	Student student1=new Student();
 	System.out.println(student1);
-	student1.name = "¹ØÓğ";
+	student1.name = "å…³ç¾½";
 	student1.age = 43;
-	student1.sex = "ÄĞ";
+	student1.sex = "ç”·";
 	student1.score = 99;
 	student1.show();
 	
 	Student student2 = student1;
-	student2.name = "ÕÅ·É";
+	student2.name = "å¼ é£";
 	student2.show();
 	
 	student1.show();
@@ -24,9 +24,9 @@ class Student{
 	String sex;
 	int score;
 	void show() {
-		System.out.println("ĞÕÃûÊÇ£º"+name);
-		System.out.println("ĞÔ±ğÊÇ£º"+sex);
-		System.out.println("ÄêÁäÊÇ£º"+age);
-		System.out.println("·ÖÊıÊÇ£º"+score);	
+		System.out.println("å§“åæ˜¯ï¼š"+name);
+		System.out.println("æ€§åˆ«æ˜¯ï¼š"+sex);
+		System.out.println("å¹´é¾„æ˜¯ï¼š"+age);
+		System.out.println("åˆ†æ•°æ˜¯ï¼š"+score);	
 	}
 }

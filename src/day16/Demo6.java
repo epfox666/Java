@@ -16,7 +16,7 @@ public class Demo6 {
 class SanGuo extends JFrame{
 	JButton button1;
     SanGuo(){
-    	button1=new JButton("刘备");
+    	button1=new JButton("鍒樺");
     
     this.setLayout(new FlowLayout());
     this.add(button1);
@@ -32,7 +32,7 @@ class SanGuo extends JFrame{
 
 		@Override
 		public void actionPerformed(ActionEvent e) {
-			System.out.println("主公，我来了");
+			System.out.println("涓诲叕锛屾垜鏉ヤ簡");
 			
 		}
    }

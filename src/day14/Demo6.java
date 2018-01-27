@@ -3,13 +3,13 @@ import java.util.*;
 public class Demo6 {
    public static void main(String[] args) {
 	Scanner scanner=new Scanner(System.in);
-	System.out.println("ÇëÊäÈë³ıÊı");
+	System.out.println("è¯·è¾“å…¥é™¤æ•°");
 	int num=scanner.nextInt();
 	try {
 		int result=10/num;
 		System.out.println(result);
 	}catch(Exception e) {
-		System.out.println("³ıÊı²»ÄÜÎªÁã");
+		System.out.println("é™¤æ•°ä¸èƒ½ä¸ºé›¶");
 	}
 }
 }

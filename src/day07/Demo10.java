@@ -1,4 +1,4 @@
-//有返回值没参数
+//鏈夎繑鍥炲�兼病鍙傛暟
 package day07;
 import java.util.*;
 public class Demo10 {

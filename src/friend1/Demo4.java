@@ -8,7 +8,7 @@ public class Demo4 {
 class Student2 extends Student{
 	public int add() {
 //		 return num1+num2+num3+num4;
-//		 num1ÊÇË½ÓĞµÄ£¬Íâ½çÎŞ·¨·ÃÎÊ
+//		 num1æ˜¯ç§æœ‰çš„ï¼Œå¤–ç•Œæ— æ³•è®¿é—®
 		 return num2+num3+num4;
 	}
 }

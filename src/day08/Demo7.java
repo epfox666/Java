@@ -2,7 +2,7 @@ package day08;
 
 public class Demo7 {
 public static void main(String[] args) {
-	Teacher t=new Teacher("��Ӣǫ",40,"man",200000);
+	Teacher t=new Teacher("刘英谦",40,"man",200000);
 	t.show();
 }
 }

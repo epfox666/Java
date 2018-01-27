@@ -10,30 +10,30 @@ public class Demo9 {
 	new MyFrame5();
   }
 }
-//Íø¸ñ²¼¾Ö£ºÓÉÀ´Ö¸¶¨×é¼þÅÅÁÐÊÇ¼¸ÐÐ¼¸ÁÐ£¬ÅÅÁÐµÄË³Ðò
-//´Ó×óµ½ÓÒ£¬´ÓÉÏµ½ÏÂ£¬ÒÀ´ÎÅÅÁÐ
+//ç½‘æ ¼å¸ƒå±€ï¼šç”±æ¥æŒ‡å®šç»„ä»¶æŽ’åˆ—æ˜¯å‡ è¡Œå‡ åˆ—ï¼ŒæŽ’åˆ—çš„é¡ºåº
+//ä»Žå·¦åˆ°å³ï¼Œä»Žä¸Šåˆ°ä¸‹ï¼Œä¾æ¬¡æŽ’åˆ—
 class MyFrame5 extends JFrame{
-//3ÐÐ£¬3ÁÐ×é¼þ²¼¾Ö
-//´´½¨JButtonµÄÊý×é£¬9¸ö°´Å¥ÔªËØ	
+//3è¡Œï¼Œ3åˆ—ç»„ä»¶å¸ƒå±€
+//åˆ›å»ºJButtonçš„æ•°ç»„ï¼Œ9ä¸ªæŒ‰é’®å…ƒç´ 	
   JButton[] buttons = new JButton[9];
   MyFrame5(){
-//	ÉèÖÃ²¼¾Ö
+//	è®¾ç½®å¸ƒå±€
 	this.setLayout(new GridLayout(3,3));
-//	Ê¹ÓÃforÀ´²Ù×÷buttonsÊý×éÔªËØ£¬´´½¨JButton
-//	¶ÔÏó,¼°°ÑJButton¶ÔÏóÌí¼Óµ½MyFrame4ÉÏÃæ 
+//	ä½¿ç”¨foræ¥æ“ä½œbuttonsæ•°ç»„å…ƒç´ ï¼Œåˆ›å»ºJButton
+//	å¯¹è±¡,åŠæŠŠJButtonå¯¹è±¡æ·»åŠ åˆ°MyFrame4ä¸Šé¢ 
 	for(int i=0;i<buttons.length;i++){
-//	´´½¨°´Å¥
-//	String.valueof£¨int£©:
-//				  °ÑÊý×Ö×ª»¯¶ÔÓ¦µÄ×Ö·û´®	
+//	åˆ›å»ºæŒ‰é’®
+//	String.valueofï¼ˆintï¼‰:
+//				  æŠŠæ•°å­—è½¬åŒ–å¯¹åº”çš„å­—ç¬¦ä¸²	
 	  buttons[i] = new JButton(String.valueOf(i+1));
-//	  °Ñ°´Å¥Ìí¼Óµ½MyFrame5ÉÏÃæ
+//	  æŠŠæŒ‰é’®æ·»åŠ åˆ°MyFrame5ä¸Šé¢
 	  this.add(buttons[i]);
-	}//Õ¹ÏÖ´°Ìå£¬´´½¨MyFrame5¶ÔÏó
+	}//å±•çŽ°çª—ä½“ï¼Œåˆ›å»ºMyFrame5å¯¹è±¡
 	this.setVisible(true);
 	this.setSize(300, 200);
 	this.setDefaultCloseOperation(
 			JFrame.EXIT_ON_CLOSE);
-	this.setTitle("Íø¸ñ²¼¾Ö");
+	this.setTitle("ç½‘æ ¼å¸ƒå±€");
   }	
 	
 	

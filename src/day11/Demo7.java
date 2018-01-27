@@ -12,8 +12,8 @@ public class Demo7 {
 }
 class Foo{
 	  {
-		System.out.println("NBAÃ»ÓĞÁË");
-		System.out.println("ÊÀ½ç±­ÌßÍêÁË");
-		System.out.println("°²ĞÄµÄÑ§Ï°°É£¡£¡£¡");
+		System.out.println("NBAæ²¡æœ‰äº†");
+		System.out.println("ä¸–ç•Œæ¯è¸¢å®Œäº†");
+		System.out.println("å®‰å¿ƒçš„å­¦ä¹ å§ï¼ï¼ï¼");
 	  }	
 }

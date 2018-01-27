@@ -33,10 +33,10 @@ class Customer{
 			this.address = address;
 		  }	
     void show(){
-    	System.out.println("ĞÕÃû£º"+name);
-    	System.out.println("ÄêÁä£º"+age);
-    	System.out.println("µØÖ·£º"+address);
-    	System.out.println("½ğ¶î£º"+money);
-    	System.out.println("Ö°Òµ£º"+job);
+    	System.out.println("å§“åï¼š"+name);
+    	System.out.println("å¹´é¾„ï¼š"+age);
+    	System.out.println("åœ°å€ï¼š"+address);
+    	System.out.println("é‡‘é¢ï¼š"+money);
+    	System.out.println("èŒä¸šï¼š"+job);
       }
 }

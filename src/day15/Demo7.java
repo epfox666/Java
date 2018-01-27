@@ -8,34 +8,34 @@ public class Demo7 {
 	new MyFrame3();
   }
 }
-//Á÷Ê½²¼¾Ö£º×é¼ş°´ÕÕ´Ó×óµ½ÓÒ£¬´ÓÉÏµ½ÏÂµÄË³ĞòÀ´ÅÅÁĞ
+//æµå¼å¸ƒå±€ï¼šç»„ä»¶æŒ‰ç…§ä»å·¦åˆ°å³ï¼Œä»ä¸Šåˆ°ä¸‹çš„é¡ºåºæ¥æ’åˆ—
 class MyFrame3 extends JFrame{
   JButton button1,button2,button3,
   		button4,button5;
   MyFrame3(){
-	button1 = new JButton("°´Å¥1");
-	button2 = new JButton("°´Å¥2");
-	button3 = new JButton("°´Å¥3");
-	button4 = new JButton("°´Å¥4");
-	button5 = new JButton("°´Å¥5");
-//ÉèÖÃ²¼¾Ö£ºÁ÷Ê½²¼¾Ö(FlowLayout())
+	button1 = new JButton("æŒ‰é’®1");
+	button2 = new JButton("æŒ‰é’®2");
+	button3 = new JButton("æŒ‰é’®3");
+	button4 = new JButton("æŒ‰é’®4");
+	button5 = new JButton("æŒ‰é’®5");
+//è®¾ç½®å¸ƒå±€ï¼šæµå¼å¸ƒå±€(FlowLayout())
 	this.setLayout(new FlowLayout());
-//Ìí¼Ó°´Å¥Ë³Ğò£º¾ÍÊÇÔÚMyFrame3´°ÌåÉÏ°´Å¥ÅÅÁĞ
-//Ë³Ğò
+//æ·»åŠ æŒ‰é’®é¡ºåºï¼šå°±æ˜¯åœ¨MyFrame3çª—ä½“ä¸ŠæŒ‰é’®æ’åˆ—
+//é¡ºåº
 	this.add(button1);
 	this.add(button2);
 	this.add(button3);
 	this.add(button4);
 	this.add(button5);
-//Õ¹ÏÖ´°Ìå
+//å±•ç°çª—ä½“
 	this.setVisible(true);
 	this.setSize(500, 300);
 //	this.setSize(300, 500);
-//¸ù¾İ×é¼ş´óĞ¡ºÍ¸öÊı£¬×Ô¶¯ÉèÖÃ´°Ìå´óĞ¡
+//æ ¹æ®ç»„ä»¶å¤§å°å’Œä¸ªæ•°ï¼Œè‡ªåŠ¨è®¾ç½®çª—ä½“å¤§å°
 //	this.pack();
 	this.setDefaultCloseOperation(
 			JFrame.EXIT_ON_CLOSE);
-	this.setTitle("Á÷Ê½²¼¾Ö");
+	this.setTitle("æµå¼å¸ƒå±€");
 	
   }
   

@@ -15,7 +15,7 @@ public class Demo7 {
 }
 }
 interface Car{
-	public static final String COLOR="蓝色";
+	public static final String COLOR="钃濊壊";
 	int PRICE =500;
 	public abstract void start();
 	void run();
@@ -25,19 +25,19 @@ class Bmw implements Car{
 
 	@Override
 	public void start() {
-		System.out.println("启动");	
+		System.out.println("鍚姩");	
 		
 	}
 
 	@Override
 	public void run() {
-		 System.out.println("行驶");
+		 System.out.println("琛岄┒");
 		
 	}
 
 	@Override
 	public void stop() {
-		 System.out.println("刹车");	
+		 System.out.println("鍒硅溅");	
 		
 	}
 	void show() {

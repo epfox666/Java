@@ -3,11 +3,11 @@ package day09;
 public class Demo7 {
 public static void main(String[] args) {
 	Teacher t=new Teacher();
-	t.name="Áõ";
-	t.sex="ÄĞ";
+	t.name="åˆ˜";
+	t.sex="ç”·";
 	t.age=35;
 	t.salary=1000000;
-	t.address="ÉÏº£";
+	t.address="ä¸Šæµ·";
 	t.show();
 	t.getYearSalary();
 }
@@ -25,6 +25,6 @@ class Teacher extends Person2{
 	String address;
 	void getYearSalary() {
 		double result=salary*12;
-		System.out.println(name+"µÄÄêĞ½ÊÇ"+result);
+		System.out.println(name+"çš„å¹´è–ªæ˜¯"+result);
 	}
 }

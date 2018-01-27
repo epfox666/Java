@@ -2,19 +2,19 @@ package day16;
 
 public class Demo1 {
 public static void main(String[] args) {
-	//8种基本数据类型对象转数字
+	//8绉嶅熀鏈暟鎹被鍨嬪璞¤浆鏁板瓧
 	Integer integer1=new Integer(12);
 	int num1=integer1.intValue();
-	//8种基本数据类型数字转对象
+	//8绉嶅熀鏈暟鎹被鍨嬫暟瀛楄浆瀵硅薄
 	int num2=25;
 	Integer integer2=Integer.valueOf(num2);
-	//String对象转字符串
+	//String瀵硅薄杞瓧绗︿覆
 	Integer integer3=new Integer(35);
 	String str1=integer3.toString();
-	//String  字符串转对象
+	//String  瀛楃涓茶浆瀵硅薄
 	String str2="epfox";
 	String integer4=String.valueOf(str2);
-	//String 字符串转数字(int)
+	//String 瀛楃涓茶浆鏁板瓧(int)
 	String str3="123456";
 	int num3=Integer.parseInt(str3);
 }

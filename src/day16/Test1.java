@@ -39,19 +39,19 @@ class QQ implements Car{
 
 	@Override
 	public void run() {
-		System.out.println("QQĞĞÊ»");
+		System.out.println("QQè¡Œé©¶");
 		
 	}
 
 	@Override
 	public void start() {
-		System.out.println("QQÆô¶¯");
+		System.out.println("QQå¯åŠ¨");
 		
 	}
 
 	@Override
 	public void stop() {
-		System.out.println("QQÍ£Ö¹");
+		System.out.println("QQåœæ­¢");
 		
 	}
 	
@@ -60,19 +60,19 @@ class Bmw implements Car{
 
 	@Override
 	public void run() {
-		System.out.println("BmwĞĞÊ»");
+		System.out.println("Bmwè¡Œé©¶");
 		
 	}
 
 	@Override
 	public void start() {
-		System.out.println("BmwÆô¶¯");
+		System.out.println("Bmwå¯åŠ¨");
 		
 	}
 
 	@Override
 	public void stop() {
-		System.out.println("BmwÍ£Ö¹");
+		System.out.println("Bmwåœæ­¢");
 		
 	}
 	
@@ -81,19 +81,19 @@ class Taxi implements Car{
        
 	@Override
 	public void run() {
-		System.out.println("TaxiĞĞÊ»");
+		System.out.println("Taxiè¡Œé©¶");
 		
 	}
 
 	@Override
 	public void start() {
-		System.out.println("TaxiÆô¶¯");
+		System.out.println("Taxiå¯åŠ¨");
 		
 	}
 
 	@Override
 	public void stop() {
-		System.out.println("TaxiÍ£Ö¹");
+		System.out.println("Taxiåœæ­¢");
 		
 	}
 }

@@ -2,18 +2,18 @@ package day14;
 
 public class Demo2 {
 public static void main(String[] args) {
-	StringBuffer buf=new StringBuffer("½ñÌì");
-	buf.append("¸Ğ¾õÑ§µÄ¶«Î÷Ã»ÓĞ×òÌìµÄÄÑ,");
-	buf.append("ÏÂÖÜ¿ªÊ¼Ñ§Ï°Êı¾İ¿âÄÚÈİ¡£");
+	StringBuffer buf=new StringBuffer("ä»Šå¤©");
+	buf.append("æ„Ÿè§‰å­¦çš„ä¸œè¥¿æ²¡æœ‰æ˜¨å¤©çš„éš¾,");
+	buf.append("ä¸‹å‘¨å¼€å§‹å­¦ä¹ æ•°æ®åº“å†…å®¹ã€‚");
 	System.out.println(buf.toString());
 	
-	StringBuilder bud=new StringBuilder("×òÌì");
-	bud.append("ÌìÆøÍ¦ºÃ,ÎíÃÉÃÉµÄ¡£");
+	StringBuilder bud=new StringBuilder("æ˜¨å¤©");
+	bud.append("å¤©æ°”æŒºå¥½,é›¾è’™è’™çš„ã€‚");
 	bud.append(true);
 	bud.append(12);
 	bud.append(12.1f);
 	System.out.println(bud.toString());
-	bud.insert(0, "ÎÒËµÕæµÄ");
+	bud.insert(0, "æˆ‘è¯´çœŸçš„");
 	System.out.println(bud.toString());
 	bud.delete(4, 6);
 	System.out.println(bud.toString());

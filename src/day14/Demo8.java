@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	}catch(NullPointerException e) {
 		e.printStackTrace();
 	}finally {
-		System.out.println("不管有没有异常出现，都必须执行的代码");
+		System.out.println("涓嶇鏈夋病鏈夊紓甯稿嚭鐜帮紝閮藉繀椤绘墽琛岀殑浠ｇ爜");
 	}
 }
 }

@@ -2,6 +2,6 @@ package friend2;
 import friend1.Demo2;
 public class Demo3 {
 //	Person person = new Person();
-//	Ä¬ÈÏ²»Ğ´µÄ·ÃÎÊĞŞÊÎĞŞÊÎ£¬²»ÄÜÔÚ°üÍâ·ÃÎÊ	
+//	é»˜è®¤ä¸å†™çš„è®¿é—®ä¿®é¥°ä¿®é¥°ï¼Œä¸èƒ½åœ¨åŒ…å¤–è®¿é—®	
 	Demo2 d=new Demo2();
 }

@@ -4,8 +4,8 @@ public class Demo1 {
 public static void main(String[] args) {
 	Map map=new HashMap();
 	map.put("k1", "v1");
-	map.put("Ğ»öª·æ", "ÕÅ°ØÖ¥");
-	map.put("ÎÀÇà", "»ôÈ¥²¡");
+	map.put("è°¢éœ†é”‹", "å¼ æŸèŠ");
+	map.put("å«é’", "éœå»ç—…");
 	System.out.println(map.size());
 	System.out.println(map.isEmpty());
 //	map.clear();

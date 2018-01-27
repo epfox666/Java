@@ -11,6 +11,6 @@ public static void main(String[] args) {
 }
 class Person1{
 	public static final int AGE=20;
-	public final static String NAME = "³£Óö´º";
+	public final static String NAME = "å¸¸é‡æ˜¥";
 	String nn="epfox";
 }

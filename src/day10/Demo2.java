@@ -3,10 +3,10 @@ package day10;
 public class Demo2 {
 	  public static void main(String[] args){
 			Bmw3 bmw = new Bmw3();
-			bmw.name = "我的宝马";
+			bmw.name = "鎴戠殑瀹濋┈";
 			bmw.no = "66666666";
 			bmw.price = 100;	
-			bmw.color = "红色";
+			bmw.color = "绾㈣壊";
 			bmw.speed = 200;	
 			bmw.degree = 26;
 			System.out.println(bmw.name+","+bmw.no

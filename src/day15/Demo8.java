@@ -10,32 +10,32 @@ public class Demo8 {
 	new MyFrame4();
   }
 }
-//±ß½ç²¼¾Ö£ºÖĞ²¿£¬ÄÏ²¿£¬±±²¿£¬Î÷²¿£¬¶«²¿£¬
-//5¸öÇøÓò¹¹³É
+//è¾¹ç•Œå¸ƒå±€ï¼šä¸­éƒ¨ï¼Œå—éƒ¨ï¼ŒåŒ—éƒ¨ï¼Œè¥¿éƒ¨ï¼Œä¸œéƒ¨ï¼Œ
+//5ä¸ªåŒºåŸŸæ„æˆ
 class MyFrame4 extends JFrame{
-//´´½¨5¸ö°´Å¥×é¼ş
+//åˆ›å»º5ä¸ªæŒ‰é’®ç»„ä»¶
   JButton button1,button2,button3
   	,button4,button5;
   MyFrame4(){
-	button1 = new JButton("¶«Ğ°");
-	button2 = new JButton("Î÷¶¾");
-	button3 = new JButton("ÄÏµÛ");
-	button4 = new JButton("±±Ø¤");
-	button5 = new JButton("ÖĞÉñÍ¨");
-// ÉèÖÃ²¼¾Ö£º±ß½ç²¼¾Ö
+	button1 = new JButton("ä¸œé‚ª");
+	button2 = new JButton("è¥¿æ¯’");
+	button3 = new JButton("å—å¸");
+	button4 = new JButton("åŒ—ä¸");
+	button5 = new JButton("ä¸­ç¥é€š");
+// è®¾ç½®å¸ƒå±€ï¼šè¾¹ç•Œå¸ƒå±€
 	this.setLayout(new BorderLayout());
-// Ìí¼Ó×é¼ş:add(×é¼ş£¬Î»ÖÃ)
+// æ·»åŠ ç»„ä»¶:add(ç»„ä»¶ï¼Œä½ç½®)
 	this.add(button1, BorderLayout.EAST);
 	this.add(button2,BorderLayout.WEST);
 	this.add(button3,BorderLayout.SOUTH);
 	this.add(button4,BorderLayout.NORTH);
 	this.add(button5,BorderLayout.CENTER);
-//  Õ¹ÏÖ´°Ìå£¬´´½¨MyFrame4¶ÔÏó
+//  å±•ç°çª—ä½“ï¼Œåˆ›å»ºMyFrame4å¯¹è±¡
 	this.setSize(300, 200);
 	this.setVisible(true);
 	this.setDefaultCloseOperation(
 			JFrame.EXIT_ON_CLOSE);
-	this.setTitle("±ß½ç²¼¾Ö");
+	this.setTitle("è¾¹ç•Œå¸ƒå±€");
   }
 	
 	

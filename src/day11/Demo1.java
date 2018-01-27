@@ -4,8 +4,8 @@ package day11;
 
 public class Demo1 {
 public static void main(String[] args) {
-	Car benz= new Benz("ÁõÀÏÊ¦±¼³Û",0);
-	Car benz2 = new Benz("¿×ÀÏÊ¦±¼³Û",0);
+	Car benz= new Benz("åˆ˜è€å¸ˆå¥”é©°",0);
+	Car benz2 = new Benz("å­”è€å¸ˆå¥”é©°",0);
 	benz.start();
 	benz.run();
 	benz.stop();
@@ -29,20 +29,20 @@ class Benz extends Car{
 	@Override
 	void start() {
 		  speed = 100;
-		  System.out.println(name+"Æô¶¯ÁË");
+		  System.out.println(name+"å¯åŠ¨äº†");
 		
 	}
 
 	@Override
 	void run() {
-		System.out.println(name+"ĞĞÊ»£¬ËÙ¶ÈÊÇ"+speed);	
+		System.out.println(name+"è¡Œé©¶ï¼Œé€Ÿåº¦æ˜¯"+speed);	
 		
 	}
 
 	@Override
 	void stop() {
 		  speed = 0;
-		  System.out.println(name+"É²³µ,ËÙ¶ÈÊÇ"+speed);
+		  System.out.println(name+"åˆ¹è½¦,é€Ÿåº¦æ˜¯"+speed);
 		
 	}
 	

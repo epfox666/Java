@@ -6,16 +6,16 @@ public class Demo14 {
 	int a=s.nextInt();
    switch(a) {
    case 1:
-    System.out.println("×¢²á");
+    System.out.println("æ³¨å†Œ");
     break;
    case 2:
-	 System.out.println("µÇÂ½");
+	 System.out.println("ç™»é™†");
 	 break;
    case 3:
-	   System.out.println("ÍË³ö");
+	   System.out.println("é€€å‡º");
 	   break;
 	   default:
-	System.out.println("Ã»ÓĞÕâÖÖ²Ù×÷");	   
+	System.out.println("æ²¡æœ‰è¿™ç§æ“ä½œ");	   
    }
 }
 }

@@ -1,4 +1,4 @@
-//´ø²ÎÊıÎŞ·µ»ØÖµ
+//å¸¦å‚æ•°æ— è¿”å›å€¼
 package day07;
 import java.util.*;
 public class Demo12 {

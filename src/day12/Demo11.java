@@ -3,13 +3,13 @@ import java.util.*;
 public class Demo11 {
 public static void main(String[] args) {
 	ArrayList list=new ArrayList();
-	list.add("×òÌìÌìÆø²»´í£¬²Å36¶È"); //0
-	list.add(new Person2("Ñî¹ã"));  //1
-	list.add(new User2("Àî¾¸",35));   //2
-	list.add(new User2("ÀîÎÄ¾²",32));   //3
-	list.add("½ñÌìºÃÀÛ¡£¡£¡£ÖÕÓÚ¿ÉÒÔ²»ÓÃĞ´ÀàÁË");  //4
-	System.out.println(list.size());  //»ñÈ¡µ±Ç°¼¯ºÏÖĞÔªËØ¸öÊı
-	User2 user1=(User2)list.get(3);   //Àà ¶ÔÏóÃû=£¨Àà£©»ñÈ¡µÚËÄ¸ö
+	list.add("æ˜¨å¤©å¤©æ°”ä¸é”™ï¼Œæ‰36åº¦"); //0
+	list.add(new Person2("æ¨å¹¿"));  //1
+	list.add(new User2("æé–",35));   //2
+	list.add(new User2("ææ–‡é™",32));   //3
+	list.add("ä»Šå¤©å¥½ç´¯ã€‚ã€‚ã€‚ç»ˆäºå¯ä»¥ä¸ç”¨å†™ç±»äº†");  //4
+	System.out.println(list.size());  //è·å–å½“å‰é›†åˆä¸­å…ƒç´ ä¸ªæ•°
+	User2 user1=(User2)list.get(3);   //ç±» å¯¹è±¡å=ï¼ˆç±»ï¼‰è·å–ç¬¬å››ä¸ª
 	System.out.println(user1.name);
 	System.out.println(user1.age);
 	System.out.println(list.isEmpty());

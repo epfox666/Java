@@ -8,9 +8,9 @@ public static void main(String[] args) throws NameOrPwdException {
 	String pwd=s.nextLine();
 
 	if(user.equals("epfox")&&pwd.equals("123456")) {
-		System.out.println("账号密码正确");
+		System.out.println("璐﹀彿瀵嗙爜姝ｇ‘");
 	}else {
-		throw new NameOrPwdException("用户名或密码错误");
+		throw new NameOrPwdException("鐢ㄦ埛鍚嶆垨瀵嗙爜閿欒");
 	}
 
 }

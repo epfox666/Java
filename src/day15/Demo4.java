@@ -6,6 +6,6 @@ public static void main(String[] args) {
 	jframe.setVisible(true);
 	jframe.setSize(500, 400);
 	jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-	jframe.setTitle("哥的第一个Jfarme");
+	jframe.setTitle("鍝ョ殑绗竴涓狫farme");
 }
 }

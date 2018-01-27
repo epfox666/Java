@@ -4,15 +4,15 @@ public class Demo13 {
 public static void main(String[] args) {
 	HashMap map=new HashMap();
 	map.put("k1", "v1");
-	map.put("õõ²õ","ÂÀ²¼");
+	map.put("è²‚è‰","å•å¸ƒ");
 	System.out.println(map.toString());
-	map.put("k3",new Customer(1,"Ğ»°²"));
-	map.put("k4",new Emp2("·¿ĞşÁä",23,"fang@163.com"));
+	map.put("k3",new Customer(1,"è°¢å®‰"));
+	map.put("k4",new Emp2("æˆ¿ç„é¾„",23,"fang@163.com"));
 	System.out.println(map);
 	System.out.println(map.isEmpty());
 	String k1=(String)map.get("k1");
 	System.out.println(k1);
-	String lvbu=(String)map.get("õõ²õ");
+	String lvbu=(String)map.get("è²‚è‰");
 	System.out.println(lvbu);
 	Customer c=(Customer)map.get("k3");
 	System.out.println(c.id);
@@ -24,9 +24,9 @@ public static void main(String[] args) {
 	map.clear();
 	System.out.println(map.size());
 	System.out.println(map.isEmpty());
-	map.put("õõ²õ", "¸çµÄ");
-	String name2 =(String)map.get("õõ²õ");
-	System.out.println("ÃÀÅ®ÊÇ£º"+name2);
+	map.put("è²‚è‰", "å“¥çš„");
+	String name2 =(String)map.get("è²‚è‰");
+	System.out.println("ç¾å¥³æ˜¯ï¼š"+name2);
 	System.out.println(map);
 }
 }

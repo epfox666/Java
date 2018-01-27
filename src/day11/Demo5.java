@@ -2,15 +2,15 @@ package day11;
 
 public class Demo5 {
 public static void main(String[] args) {
-	Student s1=new Student("Áõ",45);
-	System.out.println("ÈËÊı£º"+Student.num);
-	System.out.println("ÈËÊı£º"+s1.num);
-	Student s2=new Student("°×Æğ",35);
-	Student s3=new Student("Á®ÆÄ",45);
-	Student s4=new Student("ÕÔ¹ãÒå",35);
-	Student s5=new Student("ÔÀ·É",30);
-	System.out.println("×ÜµÄÈËÊı£º"+	Student.num);
-	System.out.println("×ÜµÄÈËÊı£º"+	s1.num);
+	Student s1=new Student("åˆ˜",45);
+	System.out.println("äººæ•°ï¼š"+Student.num);
+	System.out.println("äººæ•°ï¼š"+s1.num);
+	Student s2=new Student("ç™½èµ·",35);
+	Student s3=new Student("å»‰é¢‡",45);
+	Student s4=new Student("èµµå¹¿ä¹‰",35);
+	Student s5=new Student("å²³é£",30);
+	System.out.println("æ€»çš„äººæ•°ï¼š"+	Student.num);
+	System.out.println("æ€»çš„äººæ•°ï¼š"+	s1.num);
 }
 }
 class Student{

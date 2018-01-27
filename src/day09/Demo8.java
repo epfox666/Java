@@ -3,10 +3,10 @@ package day09;
 public class Demo8 {
 	  public static void main(String[] args){
 		   Manager manager = new Manager();
-			manager.name = "Áõ";
-			manager.address="±±¾©";
+			manager.name = "åˆ˜";
+			manager.address="åŒ—äº¬";
 			manager.age = 22;
-			manager.job = "²úÆ·¾­Àí";
+			manager.job = "äº§å“ç»ç†";
 			manager.phone="13552329647";
 			manager.salary = 999999999;
 			manager.show();

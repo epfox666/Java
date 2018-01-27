@@ -6,28 +6,28 @@ public class Demo9 {
 		k2.f1(10, 10);
 	  }
 	}
-	//this.·½·¨Ãû£¨²ÎÊı£©£ºµ÷ÓÃ±¾ÀàÖĞµÄÆäËûµÄ·½·¨
-	//super.·½·¨Ãû£¨²ÎÊı£©£ºÔÚ×ÓÀàÖĞµ÷ÓÃ¸¸ÀàÖĞ±»¸²¸Ç
-	//·½·¨
-	class Koo1{//¸¸Àà
-	  int function(int num1,int num2){//¼Ó·¨
+	//this.æ–¹æ³•åï¼ˆå‚æ•°ï¼‰ï¼šè°ƒç”¨æœ¬ç±»ä¸­çš„å…¶ä»–çš„æ–¹æ³•
+	//super.æ–¹æ³•åï¼ˆå‚æ•°ï¼‰ï¼šåœ¨å­ç±»ä¸­è°ƒç”¨çˆ¶ç±»ä¸­è¢«è¦†ç›–
+	//æ–¹æ³•
+	class Koo1{//çˆ¶ç±»
+	  int function(int num1,int num2){//åŠ æ³•
 		int sum = num1 + num2;
 		return sum;
 	  }
 	}
-	class Koo2 extends Koo1{//×ÓÀà
-	//ÖØĞ´¸¸ÀàÖĞµÄfunction
-	  int function(int num1,int num2){//³Ë·¨
+	class Koo2 extends Koo1{//å­ç±»
+	//é‡å†™çˆ¶ç±»ä¸­çš„function
+	  int function(int num1,int num2){//ä¹˜æ³•
 		int result = num1 * num2;
 		return result;
 	  }
-	//Éè¼Æ·½·¨£º£¨num1+num2£©+num1*num2 
-//	        ¸¸Ààfunction  ×ÓÀàÖØĞ´function
-//	        super.·½·¨          this.·½·¨
+	//è®¾è®¡æ–¹æ³•ï¼šï¼ˆnum1+num2ï¼‰+num1*num2 
+//	        çˆ¶ç±»function  å­ç±»é‡å†™function
+//	        super.æ–¹æ³•          this.æ–¹æ³•
 	  void f1(int num1,int num2){
 		int result = 
 	super.function(num1,num2)+
 	              this.function(num1, num2);
-		System.out.println("½á¹ûÊÇ"+result);
+		System.out.println("ç»“æœæ˜¯"+result);
 	  }
 	}

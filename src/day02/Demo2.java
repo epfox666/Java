@@ -1,13 +1,13 @@
 package day02;
 public class Demo2 {
-//×Ô¶¯ÀàĞÍ×ª»¯£ºÓÉĞ¡µ½´ó
-//byte-¡·short-¡·int-¡·long-¡·float-¡·double
+//è‡ªåŠ¨ç±»å‹è½¬åŒ–ï¼šç”±å°åˆ°å¤§
+//byte-ã€‹short-ã€‹int-ã€‹long-ã€‹float-ã€‹double
   public static void main(String[] args)
   {
 	int numInt = 100;
 	float numFloat = numInt;
-//numInt»á×Ô¶¯ÀàĞÍ×ª»¯£¬ÓÉintÀàĞÍ×Ô¶¯×ª»¯Îªfloat
-//ÀàĞÍ
+//numIntä¼šè‡ªåŠ¨ç±»å‹è½¬åŒ–ï¼Œç”±intç±»å‹è‡ªåŠ¨è½¬åŒ–ä¸ºfloat
+//ç±»å‹
 	System.out.println("numFloat = "
 			+numFloat);	
   }

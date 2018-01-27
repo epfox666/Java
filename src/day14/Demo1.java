@@ -2,18 +2,18 @@ package day14;
 
 public class Demo1 {
 public static void main(String[] args) {
-	String str1="ÄÇĞ©ÄêÎÒÃÇ×·¹ıµÄÅ®º¢,×Ï´¨,Èı¹úÖ¾,ºìÂ¥ÃÎ";
-	String[] strs=str1.split(",");   //·Ö¸î
+	String str1="é‚£äº›å¹´æˆ‘ä»¬è¿½è¿‡çš„å¥³å­©,ç´«å·,ä¸‰å›½å¿—,çº¢æ¥¼æ¢¦";
+	String[] strs=str1.split(",");   //åˆ†å‰²
 	for(String str:strs) {
 		System.out.println(str);
 	}
-	String str2="¹¹Ôì·½·¨.bmp";   //ÒÔ×Ö·û´®½áÎ²
+	String str2="æ„é€ æ–¹æ³•.bmp";   //ä»¥å­—ç¬¦ä¸²ç»“å°¾
 	System.out.println(str2.endsWith(".bmp"));
 	
-	String str3="ÖÕÓÚ¿ìÏÂ¿ÎÁË"; //ÒÔ×Ö·û´®¿ªÍ·
-	System.out.println(str3.startsWith("ÖÕÓÚ"));
+	String str3="ç»ˆäºå¿«ä¸‹è¯¾äº†"; //ä»¥å­—ç¬¦ä¸²å¼€å¤´
+	System.out.println(str3.startsWith("ç»ˆäº"));
 	
-	String str4="½ñÌìÊÇjavaµÄµÚ14Ìì";
+	String str4="ä»Šå¤©æ˜¯javaçš„ç¬¬14å¤©";
 	System.out.println(str4.indexOf('a'));
 	System.out.println(str4.lastIndexOf('a'));
 	
@@ -26,9 +26,9 @@ public static void main(String[] args) {
 	String num="b";
 	int index="0123456789".indexOf(num);
 	if(index==-1) {
-		System.out.println("²»ÊÇÊı×Ö");
+		System.out.println("ä¸æ˜¯æ•°å­—");
 	}else {
-		System.out.println("ÊÇÊı×Ö");
+		System.out.println("æ˜¯æ•°å­—");
 	}
 }
 }

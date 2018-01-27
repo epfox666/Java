@@ -1,9 +1,9 @@
 package test;
 public class Test1 {
 	  public static void main(String[] args) {
-		Car car1 =new Car("宝马",100);
-		Car car2 =new Car("宝马",100);
-		System.out.println("car1跟car2是否相等"
+		Car car1 =new Car("瀹濋┈",100);
+		Car car2 =new Car("瀹濋┈",100);
+		System.out.println("car1璺焎ar2鏄惁鐩哥瓑"
 				+car1.equals(car2));
 		System.out.println(car1.hashCode());
 		System.out.println(car2.hashCode());

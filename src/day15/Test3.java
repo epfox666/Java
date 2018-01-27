@@ -22,6 +22,6 @@ class Frame3 extends JFrame {
 		this.setSize(300, 200);
 		this.setDefaultCloseOperation(
 				JFrame.EXIT_ON_CLOSE);
-		this.setTitle("Íø¸ñ²¼¾Ö");
+		this.setTitle("ç½‘æ ¼å¸ƒå±€");
 	}
 }

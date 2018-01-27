@@ -40,6 +40,6 @@ class MyFrame7 extends JFrame{
 		this.setVisible(true);
 		this.setSize(200, 500);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.setTitle("×ÛºÏÓ¦ÓÃ");
+		this.setTitle("ç»¼åˆåº”ç”¨");
 	}
 }

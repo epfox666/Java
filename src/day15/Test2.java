@@ -28,6 +28,6 @@ class Frame2 extends JFrame{
 		this.setVisible(true);
 		this.setDefaultCloseOperation(
 				JFrame.EXIT_ON_CLOSE);
-		this.setTitle("�߽粼��");
+		this.setTitle("边界布局");
 	}
 }

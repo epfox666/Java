@@ -12,10 +12,10 @@ interface Eoo{
 	class User implements Eoo,Noo{	
 		@Override
 		public void f1() {
-		  System.out.println("Eoo½Ó¿ÚÖĞ·½·¨");
+		  System.out.println("Eooæ¥å£ä¸­æ–¹æ³•");
 		}
 		@Override
 		public void f2() {
-		  System.out.println("Noo½Ó¿ÚÖĞµÄ·½·¨");
+		  System.out.println("Nooæ¥å£ä¸­çš„æ–¹æ³•");
 		}
 	}

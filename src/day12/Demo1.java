@@ -9,7 +9,7 @@ public class Demo1 {
 }
 class Foo{
 	static {
-		System.out.println("Ò¹¿ÕÖĞ×îÁÁµÄĞÇ");
-		System.out.println("¼ÙÈç");
+		System.out.println("å¤œç©ºä¸­æœ€äº®çš„æ˜Ÿ");
+		System.out.println("å‡å¦‚");
 	}
 }

@@ -8,13 +8,13 @@ public class Demo1 {
 	long e=1000000000;
 	float f=1.2f;
 	double g=1.23234123;
-	char h= 'ÖĞ';
+	char h= 'ä¸­';
 	char i='a';
 	boolean j=true;
 	boolean k=false;
 	boolean l=100>=90;
-	String m="½ñÌìµÁº¹ÁË£¡";
-	String n="ÈÈ£¡£¡";
+	String m="ä»Šå¤©ç›—æ±—äº†ï¼";
+	String n="çƒ­ï¼ï¼";
 	System.out.println(m+n);
 	System.out.println(a);
 	System.out.println(b);

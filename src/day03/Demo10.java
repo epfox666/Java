@@ -6,7 +6,7 @@ public static void main(String[] args) {
 	boolean flag;
 	String res;
 	flag=(year%4==0&&year%100 !=0) || year%400==0;
-	res= flag==true? "ÊÇ" :"²»ÊÇ";
+	res= flag==true? "æ˜¯" :"ä¸æ˜¯";
 	System.out.println(res);
 }
 }

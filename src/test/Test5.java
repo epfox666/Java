@@ -3,11 +3,11 @@ package test;
 public class Test5 {
 	    public static void main(String[] args){
 	        Test5 pk=new Test5();
-	        //StringÀàËÆ»ù±¾ÀàĞÍ£¬Öµ´«µİ£¬²»»á¸Ä±äÊµ¼Ê²ÎÊıµÄÖµ
+	        //Stringç±»ä¼¼åŸºæœ¬ç±»å‹ï¼Œå€¼ä¼ é€’ï¼Œä¸ä¼šæ”¹å˜å®é™…å‚æ•°çš„å€¼
 	        String test1="Hello";
 	        pk.change(test1);
 	        System.out.println(test1);	         
-	        //StringBufferºÍStringBuilderµÈÊÇÒıÓÃ´«µİ
+	        //StringBufferå’ŒStringBuilderç­‰æ˜¯å¼•ç”¨ä¼ é€’
 	        StringBuffer test2=new StringBuffer("Hello");
 	        pk.change(test2);	         
 	        System.out.println(test2.toString());

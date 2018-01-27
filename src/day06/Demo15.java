@@ -6,18 +6,18 @@ public class Demo15 {
    int i=s.nextInt();
    switch(i) {
    case 5:
-	   System.out.println("ÓÅĞã");
+	   System.out.println("ä¼˜ç§€");
 	   break;
    case 4:
-	   System.out.println("Á¼ºÃ");
+	   System.out.println("è‰¯å¥½");
 	   break;
    case 3:
-	   System.out.println("ÖĞµÈ");
+	   System.out.println("ä¸­ç­‰");
 	   break;
    case 2:
    case 1:
    case 0:
-	   System.out.println("²»¼°¸ñ");
+	   System.out.println("ä¸åŠæ ¼");
 	   break;
 	   
 	   
