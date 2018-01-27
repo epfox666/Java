@@ -1,2 +1,2 @@
-Car car1 =new Car("±¦Âí",100);
-		Car car2 =new Car("±¼³Û",100);
+ï»¿Car car1 =new Car("å®é©¬",100);
+		Car car2 =new Car("å¥”é©°",100);
